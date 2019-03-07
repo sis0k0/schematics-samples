@@ -1,0 +1,5 @@
+<% if (city === 'Amsterdam') { %>
+  <%= city %> is awesome!
+<% } else { %>
+  meh.
+<% } %>
