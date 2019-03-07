@@ -16,6 +16,10 @@
     "templating": {
       "description": "A schematic that uses templates.",
       "factory": "./templating/index#templatingSchematic"
+    },
+    "creation": {
+      "description": "A schematic that creates a file.",
+      "factory": "./creation/index#creationSchematic"
     }
   }
 }
