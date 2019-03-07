@@ -6,7 +6,7 @@ export function myCollection(): Rule {
     const content = buffer! .toString();
     const json = JSON.parse(content);
 
-    json.dependencies["my-new-library"] = "0.15.0";
+    json.dependencies['my-new-library'] = '0.15.0';
 
     tree.overwrite('./package.json', JSON.stringify(json, null, 2));
     return tree;
