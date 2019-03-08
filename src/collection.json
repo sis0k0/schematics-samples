@@ -24,6 +24,10 @@
     "renaming": {
       "description": "A schematic that renames a file.",
       "factory": "./renaming/index#renamingSchematic"
+    },
+    "addDependency": {
+      "description": "A schematic that adds a dependency specified with name and version to the package.json",
+      "factory": "./editing/index#addDependency"
     }
   }
 }
