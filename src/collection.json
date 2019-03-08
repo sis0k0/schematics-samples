@@ -20,6 +20,10 @@
     "creation": {
       "description": "A schematic that creates a file.",
       "factory": "./creation/index#creationSchematic"
+    },
+    "renaming": {
+      "description": "A schematic that renames a file.",
+      "factory": "./renaming/index#renamingSchematic"
     }
   }
 }
