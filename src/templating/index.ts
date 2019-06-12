@@ -5,7 +5,7 @@ export function templatingSchematic(options: any) {
   return (tree: Tree) => {
     const urlSource = url('./_files');
 
-    const templatingOptions = { filename: '123', city: 'Amsterdam' };
+    const templatingOptions = { filename: '123', city: 'Tel Aviv' };
     const templateRule = template(templatingOptions);
     const templateSource = apply(urlSource, [templateRule]);
 
